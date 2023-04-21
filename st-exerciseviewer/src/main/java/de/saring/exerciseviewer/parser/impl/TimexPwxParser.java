@@ -182,6 +182,9 @@ public class TimexPwxParser extends AbstractExerciseParser {
         public float getDistance() {
             return distance;
         }
+	  public void printDistance(){
+		 System.out.println(distance);
+	  }
 
         public void setAltitude(MinMaxAvg in) {
             altitude = in;
